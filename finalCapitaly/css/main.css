@@ -1,0 +1,94 @@
+body{
+	  background-color: #004f1e;
+	  font-family: sans-serif;
+}
+.header{
+	text-align: center;
+	margin-top: 15%;
+	color: white;
+}
+.nav-color{
+	color: white;
+}
+.nav-right{
+	margin-right: 3rem;
+}
+.nav-color:hover{
+	color: #8dfca5;
+}
+.nav_active{
+	color: white;
+	display: block;
+	border-radius: 4px;
+	background-color: #a60000;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.i_left{
+	margin-right: 1rem;
+}
+.tab_active{
+	color: white;
+	border-radius: 4px;
+	background-color: green;
+}
+.tab_card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color:green;
+}
+
+.tab_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tab_container {
+  padding: 20px 15px;
+}
+.button{
+	border: none;
+	color: white;
+	background-color: #004f1e;
+	border-radius: 4px;
+	padding: 5px 5px;
+	font-size: 0.8rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.button:hover{
+	color: white;
+	background-color:#009438;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.save-button{
+	border: none;
+	color: white;
+	background-color: maroon;
+	border-radius: 4px;
+	padding: 5px 15px;
+	font-size: 0.9rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.save-button:hover{
+	color: white;
+	background-color: #a60000;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.line{
+	border-top: 1px solid maroon;
+}
+.side_card {
+  transition: 0.3s;
+  background-color: #004f1e;
+  width: 16rem;
+  
+  color: white;
+  padding: 0.3rem 0.5rem;
+  float: left;
+}
+.mid_card{
+	background-color: green;
+	width: 80%;
+	padding: 0.5rem 1rem;
+	margin-left:10%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	color: white;
+}
